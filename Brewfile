@@ -24,6 +24,10 @@ brew p7zip
 brew tree
 brew wget
 
+cask macfuse
+tap gromgit/homebrew-fuse
+brew ntfs-3g-mac
+
 tap homebrew/cask
 cask caffeine
 cask firefox
