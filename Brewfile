@@ -17,8 +17,10 @@ brew gnu-sed
 brew htop
 brew imagemagick
 brew jq
+brew mas
 brew mutt
 brew nano
+brew nanorc
 brew openssh
 brew p7zip
 brew tree
