@@ -24,10 +24,6 @@ brew p7zip
 brew tree
 brew wget
 
-cask macfuse
-tap gromgit/homebrew-fuse
-brew ntfs-3g-mac
-
 tap homebrew/cask
 cask caffeine
 cask firefox
@@ -36,6 +32,7 @@ cask gimp
 cask iterm2
 cask itsycal
 cask karabiner-elements
+cask macfuse
 cask meld
 cask qlcolorcode
 cask qlimagesize
@@ -52,6 +49,9 @@ cask visual-studio-code
 cask vlc
 cask zerotier-one
 cask zotero
+
+tap gromgit/fuse
+brew ntfs-3g-mac
 
 tap rcmdnk/file
 brew brew-file
