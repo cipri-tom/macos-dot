@@ -2,8 +2,6 @@
 # tap repositories and their packages
 
 tap homebrew/core
-brew adns
-brew aom
 brew autojump
 brew bash
 brew bash-completion@2
@@ -14,8 +12,6 @@ brew c-ares
 brew ca-certificates
 brew colordiff
 brew coreutils
-brew docbook
-brew docbook-xsl
 brew dockutil
 brew exiftool
 brew findutils
@@ -26,19 +22,8 @@ brew gettext
 brew ghostscript
 brew giflib
 brew git
-brew glib
-brew gmp
-brew gnu-getopt
 brew gnu-sed
-brew gnupg
-brew gnutls
-brew gpgme
-brew grep
-brew guile
-brew highlight
 brew htop
-brew icu4c
-brew ilmbase
 brew imagemagick
 brew imath
 brew jansson
@@ -78,7 +63,6 @@ brew lz4
 brew m4
 brew macos-term-size
 brew mas
-brew mpdecimal
 brew mutt
 brew nano
 brew ncdu
@@ -92,9 +76,8 @@ brew ntfs-3g
 brew oniguruma
 brew openexr
 brew openjpeg
+brew nanorc
 brew openssh
-brew openssl@1.1
-brew p11-kit
 brew p7zip
 brew pcre
 brew pcre2
@@ -114,8 +97,6 @@ brew telnet
 brew the_silver_searcher
 brew tokyo-cabinet
 brew tree
-brew unbound
-brew webp
 brew wget
 brew x265
 brew xmlto
@@ -132,16 +113,14 @@ cask google-chrome
 cask iterm2
 cask itsycal
 cask karabiner-elements
+cask macfuse
 cask meld
-cask netron
-cask osxfuse
 cask qlcolorcode
 cask qlimagesize
 cask qlmarkdown
 cask qlstephen
 cask quicklook-json
 cask rectangle
-cask sensiblesidebuttons
 cask skim
 cask spotify
 cask spotmenu
@@ -149,9 +128,11 @@ cask stretchly
 cask sublime-text
 cask visual-studio-code
 cask vlc
-cask xquartz
 cask zerotier-one
 cask zotero
+
+tap gromgit/fuse
+brew ntfs-3g-mac
 
 tap rcmdnk/file
 brew brew-file
