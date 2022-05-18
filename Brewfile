@@ -9,6 +9,7 @@ brew bash
 brew bash-completion@2
 brew bat
 brew bdw-gc
+brew brotli
 brew c-ares
 brew ca-certificates
 brew colordiff
@@ -18,10 +19,12 @@ brew docbook-xsl
 brew dockutil
 brew exiftool
 brew findutils
+brew fontconfig
 brew freetype
 brew gdbm
 brew gettext
 brew ghostscript
+brew giflib
 brew git
 brew glib
 brew gmp
@@ -39,8 +42,10 @@ brew ilmbase
 brew imagemagick
 brew imath
 brew jansson
+brew jbig2dec
 brew jemalloc
 brew jpeg
+brew jpeg-xl
 brew jq
 brew ldns
 brew libassuan
@@ -53,9 +58,11 @@ brew libfido2
 brew libgcrypt
 brew libgpg-error
 brew libheif
+brew libidn
 brew libidn2
 brew libksba
 brew liblqr
+brew libnghttp2
 brew libomp
 brew libpng
 brew libtasn1
@@ -63,17 +70,22 @@ brew libtiff
 brew libtool
 brew libunistring
 brew libusb
+brew libuv
+brew libvmaf
 brew little-cms2
 brew lua
+brew lz4
 brew m4
 brew macos-term-size
 brew mas
 brew mpdecimal
 brew mutt
 brew nano
+brew ncdu
 brew ncurses
 brew nettle
 brew nghttp2
+brew nmap
 brew node@12
 brew npth
 brew ntfs-3g
@@ -88,14 +100,18 @@ brew pcre
 brew pcre2
 brew pinentry
 brew pkg-config
+brew popt
+brew python@3.10
 brew python@3.8
 brew python@3.9
 brew readline
+brew rsync
 brew shared-mime-info
 brew six
 brew sqlite
 brew tcl-tk
 brew telnet
+brew the_silver_searcher
 brew tokyo-cabinet
 brew tree
 brew unbound
@@ -103,13 +119,16 @@ brew webp
 brew wget
 brew x265
 brew xmlto
+brew xxhash
 brew xz
+brew zstd
 
 tap homebrew/cask
 cask caffeine
 cask firefox
 cask fluor
 cask gimp
+cask google-chrome
 cask iterm2
 cask itsycal
 cask karabiner-elements
@@ -142,5 +161,5 @@ brew dtrx
 brew unrar
 
 # App Store applications
-appstore 408981434   iMovie       (10.2.5)
+appstore 408981434   iMovie       (10.3.1)
 appstore 1233965871  ScreenBrush  (1.7.8)
