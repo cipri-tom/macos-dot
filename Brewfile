@@ -2,7 +2,9 @@
 # tap repositories and their packages
 
 tap homebrew/core
+brew aom
 brew autojump
+brew awscli
 brew bash
 brew bash-completion@2
 brew bat
@@ -12,24 +14,42 @@ brew c-ares
 brew ca-certificates
 brew colordiff
 brew coreutils
+brew docbook
+brew docbook-xsl
 brew dockutil
+brew docutils
+brew dtrx
+brew duti
 brew exiftool
 brew findutils
 brew fontconfig
 brew freetype
 brew gdbm
 brew gettext
+brew gh
 brew ghostscript
 brew giflib
+brew gifsicle
 brew git
+brew glib
+brew gmp
+brew gnu-getopt
 brew gnu-sed
+brew gnupg
+brew gnutls
+brew gpgme
+brew guile
+brew highway
 brew htop
+brew icu4c
 brew imagemagick
 brew imath
 brew jansson
+brew jasper
 brew jbig2dec
 brew jemalloc
 brew jpeg
+brew jpeg-turbo
 brew jpeg-xl
 brew jq
 brew ldns
@@ -46,10 +66,13 @@ brew libheif
 brew libidn
 brew libidn2
 brew libksba
+brew liblinear
 brew liblqr
 brew libnghttp2
 brew libomp
 brew libpng
+brew libraw
+brew libssh2
 brew libtasn1
 brew libtiff
 brew libtool
@@ -59,32 +82,38 @@ brew libuv
 brew libvmaf
 brew little-cms2
 brew lua
+brew lua@5.3
 brew lz4
 brew m4
 brew macos-term-size
 brew mas
+brew mpdecimal
 brew mutt
 brew nano
+brew nanorc
 brew ncdu
 brew ncurses
 brew nettle
 brew nghttp2
 brew nmap
-brew node@12
 brew npth
-brew ntfs-3g
+brew nvm
 brew oniguruma
 brew openexr
 brew openjpeg
-brew nanorc
 brew openssh
+brew openssl@1.1
+brew openssl@3
+brew p11-kit
 brew p7zip
 brew pcre
 brew pcre2
 brew pinentry
 brew pkg-config
 brew popt
+brew pycparser
 brew python@3.10
+brew python@3.11
 brew python@3.8
 brew python@3.9
 brew readline
@@ -97,6 +126,8 @@ brew telnet
 brew the_silver_searcher
 brew tokyo-cabinet
 brew tree
+brew unbound
+brew webp
 brew wget
 brew x265
 brew xmlto
@@ -104,7 +135,11 @@ brew xxhash
 brew xz
 brew zstd
 
+tap homebrew/cask-drivers
+
 tap homebrew/cask
+cask 1password
+cask betterdisplay
 cask caffeine
 cask firefox
 cask fluor
@@ -115,11 +150,13 @@ cask itsycal
 cask karabiner-elements
 cask macfuse
 cask meld
+cask obsidian
 cask qlcolorcode
 cask qlimagesize
 cask qlmarkdown
 cask qlstephen
 cask quicklook-json
+cask rar
 cask rectangle
 cask skim
 cask spotify
@@ -137,10 +174,13 @@ brew ntfs-3g-mac
 tap rcmdnk/file
 brew brew-file
 
-# Other Homebrew packages
-brew dtrx
-brew unrar
+# Other Cask applications
+cask logitech-options
 
 # App Store applications
-appstore 408981434   iMovie       (10.3.1)
-appstore 1233965871  ScreenBrush  (1.7.8)
+appstore 408981434   iMovie           (10.3.5)
+appstore 409201541   Pages            (13.0)
+appstore 1233965871  ScreenBrush      (1.8.1)
+appstore 1475387142  Tailscale        (1.38.3)
+appstore 1462766408  Window Recorder  (2.2.0)
+appstore 497799835   Xcode            (14.2)
