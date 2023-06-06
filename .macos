@@ -31,6 +31,10 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 5
 
+# if necessary, the following remaps RightOpt <-> RightCmd. Config from https://hidutil-generator.netlify.app/
+# not necessary if you have karabiner
+# sudo mv ./com.local.KeyRemapping.plist ~/Library/LaunchAgents/com.local.KeyRemapping.plist
+
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
