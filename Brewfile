@@ -155,6 +155,7 @@ cask qlcolorcode
 cask qlimagesize
 cask qlmarkdown
 cask qlstephen
+cask qlvideo
 cask quicklook-json
 cask rar
 cask rectangle
