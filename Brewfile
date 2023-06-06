@@ -179,9 +179,9 @@ brew brew-file
 cask logitech-options
 
 # App Store applications
-appstore 408981434   iMovie           (10.3.5)
+appstore 408981434   iMovie           (10.3.6)
 appstore 409201541   Pages            (13.0)
-appstore 1233965871  ScreenBrush      (1.8.1)
-appstore 1475387142  Tailscale        (1.38.3)
+appstore 1233965871  ScreenBrush      (1.8.2)
+appstore 1475387142  Tailscale        (1.42.0)
 appstore 1462766408  Window Recorder  (2.2.0)
 appstore 497799835   Xcode            (14.2)
