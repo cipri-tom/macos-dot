@@ -3,6 +3,7 @@
 
 tap homebrew/core
 brew aom
+brew assh
 brew autojump
 brew awscli
 brew bash
@@ -12,6 +13,7 @@ brew bdw-gc
 brew brotli
 brew c-ares
 brew ca-certificates
+brew cffi
 brew colordiff
 brew coreutils
 brew docbook
@@ -88,7 +90,6 @@ brew m4
 brew macos-term-size
 brew mas
 brew mpdecimal
-brew mutt
 brew nano
 brew nanorc
 brew ncdu
@@ -101,6 +102,7 @@ brew nvm
 brew oniguruma
 brew openexr
 brew openjpeg
+brew openldap
 brew openssh
 brew openssl@1.1
 brew openssl@3
@@ -135,8 +137,6 @@ brew xxhash
 brew xz
 brew zstd
 
-tap homebrew/cask-drivers
-
 tap homebrew/cask
 cask 1password
 cask betterdisplay
@@ -148,6 +148,7 @@ cask google-chrome
 cask iterm2
 cask itsycal
 cask karabiner-elements
+cask logitech-options
 cask macfuse
 cask meld
 cask obsidian
@@ -166,8 +167,9 @@ cask stretchly
 cask sublime-text
 cask visual-studio-code
 cask vlc
-cask zerotier-one
 cask zotero
+
+tap homebrew/cask-drivers
 
 tap gromgit/fuse
 brew ntfs-3g-mac
@@ -175,13 +177,7 @@ brew ntfs-3g-mac
 tap rcmdnk/file
 brew brew-file
 
-# Other Cask applications
-cask logitech-options
-
 # App Store applications
-appstore 408981434   iMovie           (10.3.6)
-appstore 409201541   Pages            (13.0)
-appstore 1233965871  ScreenBrush      (1.8.2)
-appstore 1475387142  Tailscale        (1.42.0)
-appstore 1462766408  Window Recorder  (2.2.0)
-appstore 497799835   Xcode            (14.2)
+appstore 1233965871 ScreenBrush (1.8.5)
+appstore 1475387142 Tailscale (1.46.1)
+appstore 1462766408 Window Recorder (2.2.0)
