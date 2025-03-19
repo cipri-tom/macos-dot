@@ -1,0 +1,61 @@
+[user]
+	email = ciprian.tomoiaga@gmail.com
+	name = Ciprian Tomoiaga
+[merge]
+	tool = meld
+[difftool "code"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[difftool "codedir"]
+	cmd = COMPARE_FOLDERS=DIFF code --wait --diff $LOCAL $REMOTE
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[format]
+	pretty = format:%C(bold yellow)%h%Creset - %s %Cgreen(%cr) %C(bold blue)[%an]%Creset %C(yellow)%D%Creset
+[log]
+	abbrevCommit = true
+[diff]
+	tool = meld
+	wsErrorHighlight = all
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	dt = difftool
+	dtd = difftool -d
+	mt = mergetool
+	fix-perm = "!f(){ git diff -p -R --no-color | grep -E '^(diff|(old|new) mode)' --color=never | git apply; }; f"
+[color]
+	ui = true
+[core]
+	editor = nano
+	autocrlf = input
+	excludesfile = ~/.gitignore
+[help]
+	autocorrect = 10
+[diff "jupyternotebook"]
+	command = git-nbdiffdriver diff
+[merge "jupyternotebook"]
+	driver = git-nbmergedriver merge %O %A %B %L %P
+	name = jupyter notebook merge driver
+[difftool "nbdime"]
+	cmd = git-nbdifftool diff \"$LOCAL\" \"$REMOTE\" \"$BASE\"
+[difftool]
+	prompt = false
+[mergetool "nbdime"]
+	cmd = git-nbmergetool merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[mergetool]
+	prompt = false
+[pull]
+	rebase = false
+[http]
+	cookiefile = /Users/a770pl/.gitcookies
+[color "diff"]
+	whitespace = red reverse
+[init]
+	defaultBranch = main

@@ -1,0 +1,4 @@
+# https://apple.stackexchange.com/questions/136928/using-alt-cmd-right-left-arrow-in-iterm
+"\e\e[D": backward-word
+"\e\e[C": forward-word
+
