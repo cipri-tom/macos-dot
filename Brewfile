@@ -44,7 +44,6 @@ brew gpgme
 brew guile
 brew highway
 brew htop
-brew icu4c
 brew imagemagick
 brew imath
 brew jansson
@@ -85,7 +84,6 @@ brew libuv
 brew libvmaf
 brew little-cms2
 brew lua
-brew lua@5.3
 brew lz4
 brew m4
 brew macos-term-size
@@ -105,20 +103,14 @@ brew openexr
 brew openjpeg
 brew openldap
 brew openssh
-brew openssl@1.1
 brew openssl@3
 brew p11-kit
 brew p7zip
 brew pcre
 brew pcre2
 brew pinentry
-brew pkg-config
 brew popt
 brew pycparser
-brew python@3.10
-brew python@3.11
-brew python@3.8
-brew python@3.9
 brew readline
 brew ripgrep
 brew rsync
@@ -127,7 +119,6 @@ brew six
 brew sqlite
 brew tcl-tk
 brew telnet
-brew the_silver_searcher
 brew tokyo-cabinet
 brew tree
 brew unbound
@@ -157,7 +148,6 @@ cask macfuse
 cask miniforge
 cask obsidian
 cask qlcolorcode
-cask qlimagesize
 cask qlmarkdown
 cask qlstephen
 cask qlvideo
@@ -173,8 +163,6 @@ cask visual-studio-code
 cask vlc
 cask zotero
 
-tap homebrew/cask-drivers
-
 tap gromgit/fuse
 brew ntfs-3g-mac
 
@@ -182,6 +170,4 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 1233965871 ScreenBrush (1.8.5)
-appstore 1475387142 Tailscale (1.46.1)
-appstore 1462766408 Window Recorder (2.2.0)
+appstore 6447295161  MusicBar    (0.1.7)
