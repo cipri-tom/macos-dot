@@ -29,7 +29,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 5
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 # if necessary, the following remaps RightOpt <-> RightCmd. Config from https://hidutil-generator.netlify.app/
 # not necessary if you have karabiner
@@ -55,6 +55,9 @@ defaults write com.apple.screencapture type -string "jpg"
 # Disable Notification Center and remove the menu bar icon -- No longer working
 # launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist # 2> /dev/null
 
+
+# reduce the Clock in the menu bar to its smallest form (analog) : we use ItsyCal for full display
+defaults write com.apple.menuextra.clock IsAnalog -bool true
 
 # Show battery percentage in Menu bar
 # old way
@@ -171,24 +174,22 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 ###############################################################################
 # Bash                                                                        #
 ###############################################################################
-if [[ -f /usr/local/bin/bash ]]; then
-  echo "/usr/local/bin/bash" | sudo tee -a /etc/shells
-  chsh -s /usr/local/bin/bash $USER
+if [[ -f /opt/homebrew/bin/bash ]]; then
+  echo "/opt/homebrew/bin/bash" | sudo tee -a /etc/shells
+  chsh -s /opt/homebrew/bin/bash $USER
 else
   echo "New Bash does not exist"
   exit 1
 fi
 
-if [[ ! -d ~/miniconda3 ]]; then
-  echo "Installing Miniconda"
-  wget -O /tmp/miniconda https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh \
-    && chmod u+x /tmp/miniconda \
-    && /tmp/miniconda
-fi
 
-
-
-
-
-
-
+# set up all the symlinks
+# they should be taken from current path, and symlinked to the home directory
+current_path=$(pwd)
+# get all the ones that are hidden
+for file in $(ls -a $current_path | grep "^\.[a-zA-Z0-9]*$"); do
+  if [[ $file != ".git" ]]; then
+    echo "Symlinking $file"
+    ln -s $current_path/$file ~/$file
+  fi
+done
