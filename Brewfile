@@ -26,6 +26,7 @@ brew exiftool
 brew findutils
 brew fontconfig
 brew freetype
+brew fzf
 brew gdbm
 brew gettext
 brew gh
@@ -119,6 +120,7 @@ brew python@3.11
 brew python@3.8
 brew python@3.9
 brew readline
+brew ripgrep
 brew rsync
 brew shared-mime-info
 brew six
@@ -141,16 +143,18 @@ tap homebrew/cask
 cask 1password
 cask betterdisplay
 cask caffeine
+cask dehesselle-meld
 cask firefox
 cask fluor
 cask gimp
 cask google-chrome
 cask iterm2
 cask itsycal
+cask jordanbaird-ice
 cask karabiner-elements
 cask logitech-options
 cask macfuse
-cask meld
+cask miniforge
 cask obsidian
 cask qlcolorcode
 cask qlimagesize

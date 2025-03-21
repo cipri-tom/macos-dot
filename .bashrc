@@ -10,7 +10,7 @@ export ITERMPLOT=rv
 
 #alias git-commit-noWhitespace="sh -c 'git diff -w --no-color "$@" | git apply --cached --ignore-whitespace' -"
 # setup nice ls
-eval $(gdircolors)
+eval $(dircolors)
 alias ls="gls --color=auto -pGh"
 alias ll="ls -l"
 alias la="ls -a"

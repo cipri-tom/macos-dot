@@ -6,6 +6,7 @@ declare -a apps=(
     "Microsoft Teams"
     "Spotify"
     "/System/Applications/Utilities/Activity Monitor.app"
+    "Obsidian"
 )
 dockutil --remove all --no-restart
 
